@@ -1,11 +1,33 @@
-body{
+bodys{
     background-color: black;
     background-image: url(./Assets/free-hd-background-2.jpg) ;
 }
+
+body {    
+  /* The image used */
+  background-image: url(./Assets/free-hd-background-2.jpg) ;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 
 h1{
     color: white;
     font-style: italic;
     font-weight: 100;
     
+}
+
+.links{
+    font-size: 40px;
+}
+
+.navpoints{
+    color:white;
+    font-size: 40px;
 }
